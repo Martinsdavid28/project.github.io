@@ -1,0 +1,67 @@
+<html>
+<head>
+<script>  
+var welcome;  
+var date = new Date();  
+var hour = date.getHours();  
+var minute = date.getMinutes();  
+var second = date.getSeconds();  
+if (minute < 10) {  
+minute = "0" + minute;  
+}  
+if (second < 10) {  
+second = "0" + second;  
+}  
+if (hour < 12) {  
+welcome = "Good morning";  
+} else if (hour < 17) {  
+welcome = "Good afternoon";  
+} else {  
+welcome = "Good evening";  
+}  
+document.write("<h2>" + "<font color='blue'>" + welcome + "</font>" + " welcome to our website");  
+document.write("<br>" + hour + ":" + minute + ":" + second);  
+</script><br>
+<link rel="stylesheet" type="text/css" href="second.css">
+<img src="image/bitcoinlogo.png" width=7%><br>
+<p class="one"><a href="about.html">About</a> |
+<a href="contact.html">Contact</a> |
+<a href="services.html">Services</a> |
+<a href="products.html">Products</a></p>
+<title>Index</title>
+</head>
+<h3>Introduction to Bitcoin</h3>
+<img src="image/phone.gif" width=30% ><br>
+<img src="image/dif.gif" width=31% >
+
+<body>
+<p>Bitcoin is a cryptocurrency invented in 2008, by an unknown person<br>
+or group of people using the name
+ <acronym title="Founder of Bitcoin"> Satoshi Nakemoto</acronym> and started in 2009<br> when its implementation was released as an open source software.<br>
+Unlike fiat currencies, bitcoins are not physical objects. Instead, they exist in the virtual world as snippets of code.<br>
+This hasn’t stopped people from imagining what a bitcoin might look like in reality, and the crypto space is filled with<br>
+artistic renderings of gold coins emblazoned with a B!</p>
+</body>
+
+<script type= "text/javascript">
+//<![CDATA[
+// from concat.html
+
+var person ="";
+person = prompt("Hello what is your name?");
+alert("Hi there, " + person + "!");
+//]]>
+</script>
+
+<script type= "text/javascript">
+//<![CDATA[
+// from concat.html
+
+var person ="";
+alert("Kindly go to the products page to checkout the cryptocurrency offers for today.");
+//]]>
+</script>
+<footer>
+<hr>
+<p class="three">Designed by Martins© 2021</p>
+</footer>

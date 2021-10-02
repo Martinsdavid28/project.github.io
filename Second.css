@@ -1,0 +1,57 @@
+body{
+background-color:white;
+}
+
+h3
+{
+color:ff9933;
+font-family:Algerian;
+font-size:150%;
+text-align: center;
+}
+
+img
+{
+text-align: left;
+}
+
+h2
+{
+color:Green;
+font-family:Arial;
+font-size:100%;
+text-align: center;
+}
+
+body
+{
+color:black;
+font-family:Agency fb;
+font-size:150%;
+text-align: left;
+}
+
+p
+{
+color:gray;
+text-align: center;
+}
+
+hr
+{
+color: black;
+}
+
+a {
+color:Green;
+}
+
+p.three {
+ border-style: solid; 
+ border-color: red green blue yellow;
+}
+
+p.one {
+ border-style: solid; 
+ border-color: purple;
+}
